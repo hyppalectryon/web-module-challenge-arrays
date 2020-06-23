@@ -63,7 +63,7 @@ For example addFlavor("Rainbow Sherbert", originalFlavors) should return ["Rainb
 
 function addFlavor(originalFlavors){
     originalFlavors.unshift("Rainbow Sherbert");
-    console.log(originalFlavors);
+    // console.log(originalFlavors);
 }
 addFlavor(originalFlavors);
 
@@ -78,11 +78,11 @@ Your function should remove a flavor from the end of the array and console.log t
 
 For example removeLastFlavor(originalFlavors) would return ["Rainbow Sherbert", "Banana Nut Fudge",..."Vanilla"]*/
 
-function removeLastFlavor(/*code here*/){
-
-    /*code here*/
-
+function removeLastFlavor(originalFlavors){
+    originalFlavors.pop();
+    // console.log(originalFlavors)
 }
+removeLastFlavor(originalFlavors);
 
 /* Task 4: Write a function that returns a flavor at a given index in the array.
 
