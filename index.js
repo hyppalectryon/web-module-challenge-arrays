@@ -93,11 +93,10 @@ Your function should accept:
 
 For example, getFlavorByIndex(originalFlavors, 2) would return "Black Walnut", assuming Rainbow Sherbert has been added successfully. */
 
-function getFlavorByIndex(/*code here*/){
-
-    /*code here*/
-
+function getFlavorByIndex(originalFlavors){
+    console.log(originalFlavors[6])
 }
+getFlavorByIndex(originalFlavors, 6); // CHOCOLAAAAATE
 
 /* Task 5: As corporate wants to add more and more flavors to their lineup, they've realized that they need to remove flavors based on flavor name, as opposed to just arbitrarily removing the first or last flavor. Your task is to get an index by flavor name, and remove that flavor from the array.
 
@@ -112,9 +111,7 @@ Hint: You can use .splice() for this
 
 */
 
-function removeFlavorByName(/*code here*/){
-
-    /*code here*/
+function removeFlavorByName(originalFlavors){
 
 }
 
